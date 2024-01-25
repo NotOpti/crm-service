@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20240111184220",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "people",
+  "fields": [
+    {
+      "fieldName": "peopleId",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "personalData",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "demographicData",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dateOfContact",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "employee",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "reason",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "action",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "People",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

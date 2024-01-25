@@ -1,0 +1,10 @@
+entity People {
+  peopleId String required
+  personalData String 
+  demographicData String
+  dateOfContact Instant required
+  employee String
+  reason String
+  description String
+  action String
+}
